@@ -1,0 +1,40 @@
+
+
+#opening {
+	border-style: dotted;
+	padding: 20px;
+	font-family: cursive;
+
+}
+
+#steps {
+  border-top-style: solid;
+  border-top-width: 20px;
+  border-top-color: gray;
+  margin-left: 80px;
+}
+
+#source {
+	text-align: center;
+	background-image: url(http://www.fg-a.com/wallpapers/geo-shapes-black-1280.jpg);
+}
+
+.headers {
+	font-weight: bold;
+}
+
+a:link {
+	color:blue;
+}
+a:visited {
+	color:purple;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: .8em;
+  }
+  img {
+    width: 50%;
+  }
+}
